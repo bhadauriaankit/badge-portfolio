@@ -134,79 +134,95 @@ const badges=[
 {
 title:"Google Skills Arcade Level 1",
 category:"Google Cloud",
-img:"badges/GENAI.png"
+img:"badges/GENAI.png",
+link:"https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22702583"
 },
 
 {
 title:"Inspire Designer Basic 2026",
 category:"Inspire Program",
-img:"badges/Designer.png"
+img:"badges/designer.png",
+link: "https://bcert.me/bc/html/show-badge.html?b=udqeeyti"
 },
 
 {
 title:"Inspire Content Manager Basic 2026",
 category:"Inspire Program",
-img:"badges/ICM.png"
+img:"badges/ICM.png",
+link: "https://bcert.me/sxefceviw"
 },
 
 {
 title:"Inspire Scaler Basic 2026",
 category:"Inspire Program",
-img:"badges/Scaler.png"
+img:"badges/scaler.png",
+link: "https://bcert.me/shssnzqxh"
 },
 
 {
 title:"Google Skills Arcade Sprint 1",
 category:"Google Cloud",
-img:"badges/feb5.png"
+img:"badges/feb5.png",
+link:"https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22318869"
 },
 
 {
 title:"Google Skills Arcade Sprint 2",
 category:"Google Cloud",
-img:"badges/feb4.png"
+img:"badges/feb4.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22463113"
 },
 
 {
 title:"Google Skills Arcade Sprint 3",
 category:"Google Cloud",
-img:"badges/feb1.png"
+img:"badges/feb1.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22515453"
 },
 
 {
 title:"Google Skills Arcade Sprint 4",
 category:"Google Cloud",
-img:"badges/feb9.png"
+img:"badges/feb9.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22647917"
 },
 
 {
 title:"Google Skills Arcade Trail",
 category:"Google Cloud",
-img:"badges/feb6.png"
+img:"badges/feb6.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22673389"
 },
 
 {
 title:"Google Skills Arcade Adventure",
 category:"Google Cloud",
-img:"badges/feb8.png"
+img:"badges/feb8.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22184230"
+
 },
 
 {
 title:"Google Skills Arcade Foundations to Wonders",
 category:"Google Cloud",
-img:"badges/feb2.png"
+img:"badges/feb2.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22316953"
+
 },
 
 {
 title:"Google Skills Arcade Skills at the Pitch",
 category:"Google Cloud",
-img:"badges/feb3.png"
+img:"badges/feb3.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/22584971"
+
 },
 
 {
 title:"Google Skills Arcade Completion Badge",
 category:"Google Cloud",
-img:"badges/badge.png"
+img:"badges/badge.png",
+link: "https://www.skills.google/public_profiles/0361c70a-3793-46ab-8213-d29a15aadf72/badges/21894877"
 }
 
 ]
@@ -214,6 +230,8 @@ img:"badges/badge.png"
 const container=document.getElementById("badges")
 
 container.innerHTML=badges.map(b=>`
+
+<a href="${b.link}" target="_blank" style="text-decoration:none;color:inherit;">
 
 <div class="card">
 
@@ -227,10 +245,11 @@ container.innerHTML=badges.map(b=>`
 
 </div>
 
+</a>
+
 `).join("")
 
 </script>
 
 </body>
-
 </html>
